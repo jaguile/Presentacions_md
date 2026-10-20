@@ -1,0 +1,13 @@
+/* @theme custom */
+
+/* https://gist.github.com/rxaviers/7360908 */
+
+@import 'default';
+
+body {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+section.taula_gran table {
+  font-size:medium;
+}

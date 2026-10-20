@@ -1,0 +1,27 @@
+/* custom.css */
+
+@theme custom;
+
+@import 'default';
+
+section {
+  font-family: 'Helvetica', sans-serif;
+}
+
+h1 {
+  color: #007acc;
+}
+
+section.costat .columns {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+
+section.costat .columns > div {
+  flex: 1;
+}
+
+section {
+  background: red;
+}
