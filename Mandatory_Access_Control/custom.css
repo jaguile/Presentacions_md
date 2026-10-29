@@ -1,0 +1,30 @@
+/* custom.css */
+
+/* @theme custom */
+
+@import 'default';
+
+section {
+  font-family: 'courier', sans-serif;
+}
+
+h1 {
+  color: #007acc;
+}
+
+section.costat .columns {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+
+section.costat .columns > div {
+  flex: 1;
+}
+
+section.important h2 {
+  text-align: center;
+  color: #e3194b;
+  background-color: #d3c616;
+  padding-top: 25px;
+}
